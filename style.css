@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+body{
+    min-height: 2000px;
+}
+
+/* hero section start */
+.hero-section{
+min-height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+background-color: whitesmoke;
+}
+
+.content{
+    align-items: center;
+    margin-top: 20%;
+    justify-content: center;
+    position: absolute;
+}
+
+.content p {
+    font-size: 2rem;
+}
+
+.content button{
+    justify-content: center;
+    margin-top: 2rem;
+    left: 50%;
+    padding: 0.5px 8px;
+    background-color: rgb(49, 180, 255);
+    border: 0.7rem solid rgb(49, 180, 255);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.content button p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    color: aliceblue;
+    cursor: pointer;
+    
+}
+/* hero section end */
+
+/* feture start */
+
+.feature{
+    margin-top: 5rem;
+    margin-left: 4rem;
+    margin-right: 3rem;
+    background-color: white;
+}
+
+.tittle p{
+    margin-bottom: 3rem;
+    font-size: 2rem;
+    width: 35%;
+    
+}
+
+.row1{
+    font-size: 1.5rem;
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-evenly;
+    align-content: space-around;
+    flex-direction: row;
+    gap: 1rem;
+    width: 100%;
+    
+}
+.row2{
+    font-size: 1.5rem;
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-evenly;
+    align-content: space-around;
+    flex-direction: row;
+    gap: 1rem;
+    flex-basis: 100%;
+    width: 100%;
+    
+}
+
+.row1 .feature-content1{
+    height: 100%;
+    width: 100%;
+
+}
+.row1 .feature-content2{
+    height: 100%;
+    width: 100%;
+}
+.row2 .feature-content3{
+    height: 100%;
+    width: 100%;
+}
+.row2 .feature-content4{
+    height: 100%;
+    width: 100%;
+}
+
+section h5{
+    margin-bottom: 1rem;
+}
+
+section p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size: 1rem;
+}
+
+section button{
+   
+    color: rgb(49, 180, 255);
+    margin-top: 2rem;
+    background: white;
+    padding: 5px 10px;
+    border: 2px solid rgb(49, 180, 255);
+    border-radius: 10px;
+}
+
+/* feture end */
